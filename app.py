@@ -43,7 +43,7 @@ def save_uploaded_file(uploaded_file, name, task):
     return None
 
 # --- GIAO DIỆN CHÍNH ---
-st.title("🎯 Hệ Thống Báo Cáo Công Việc Bán Hàng")
+st.title("🎯 Hệ Thống Báo Cáo Công Việc MASTER 6 Hằng Ngày")
 
 # Menu bên trái (Sidebar)
 menu = ["📝 Nhân viên báo cáo", "👑 Quản lý (Leader)"]
