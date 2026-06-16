@@ -6,9 +6,8 @@ import datetime
 # --- CẤU HÌNH BAN ĐẦU ---
 st.set_page_config(page_title="App Báo Cáo Sale", layout="wide")
 
-# Tạo thư mục lưu ảnh nếu chưa có
-if not os.path.exists("uploads"):
-    os.makedirs("uploads")
+# Tạo thư mục lưu ảnh (bỏ qua lỗi nếu đã tồn tại)
+os.makedirs("uploads", exist_ok=True)
 
 # File lưu dữ liệu
 KPI_FILE = "kpi.csv"
